@@ -1,0 +1,33 @@
+.tabs {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    list-style-type: none;
+    margin: 15px;
+    border: 2px solid black;
+    padding: 10px 25px;
+    display: inline;
+}
+
+.active {
+    background-color: black;
+    color: white;
+}
+
+.notActive {
+    background-color: white;
+    color: black;
+}
+
+.content {
+    background-color: white;
+    color: black;
+    margin-top: 50px;
+    width: 700px;
+    height: 300px;
+    text-align: initial;
+    padding: 20px;
+
+}
